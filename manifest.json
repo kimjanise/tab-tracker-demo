@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Task Tracker",
+    "version": "1.0",
+    "description": "Track tabs and associate them with tasks",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "src/background.ts"
+    },
+    "action": {
+        "default_popup": "./popup.html"
+    }
+}
